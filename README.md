@@ -38,13 +38,17 @@ You can preview the production build with `npm run preview`.
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 "# svelte-app" 
 
-echo "# svelte-app" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/king-garlic/svelte-app.git
-git push -u origin main
 
+# 1. 리포지토리 연결
+    echo "# svelte-app" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/king-garlic/svelte-app.git
+    git push -u origin main
 
-https://github.com/king-garlic/svelte-app"# svelte-app" 
+# 2. 최초 커밋 , 푸시
+
+# 3. 리포지토리 새로고침
+    https://github.com/king-garlic/svelte-app"# svelte-app" 
