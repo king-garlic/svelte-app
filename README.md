@@ -145,4 +145,59 @@ You can preview the production build with `npm run preview`.
         <h1 class="pt-10 text-7xl">About page</h1>
         <div class="font-serif pt-12 text-2xl">Ciao!</div>
     </section>
-       
+# 9. Build statics pages (Static Site Generator) : npm i -D @sveltejs/adapter-static@next       
+
+
+    C:\job\front-end\svelte\svelte-app>npm i -D @sveltejs/adapter-static@next
+
+    added 1 package, and audited 194 packages in 4s
+
+    30 packages are looking for funding
+    run `npm fund` for details
+
+    found 0 vulnerabilities
+
+
+
+# 10. C:\job\front-end\svelte\svelte-app\svelte.config.js
+
+    import preprocess from "svelte-preprocess";
+    import adapter2 from "@sveltejs/adapter-auto";
+    import adapter from "@sveltejs/adapter-static";
+
+    /** @type {import('@sveltejs/kit').Config} */
+    const config = {
+    kit: {
+        adapter: adapter({
+        // default options are shown
+        pages: "build",
+        assets: "build",
+        fallback: null,
+        }),
+    },
+
+    preprocess: [
+        preprocess({
+        postcss: true,
+        }),
+    ],
+    };
+
+    export default config;
+
+
+
+# 10.     npm run preview
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
+# 10.     
